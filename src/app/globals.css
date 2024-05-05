@@ -1,0 +1,58 @@
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#banner {
+  background-image: url("../../public/banner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#banner .banner {
+  color: white;
+  height: 400px;
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  /* align-items: center; */
+}
+
+#top_rated .cards {
+  display: flex !important;
+  column-gap: 20px;
+  justify-content: center;
+}
+
+.css-o69gx8-MuiCardMedia-root{
+  object-fit: contain !important;
+}
+
+#reviews {
+  background-color: #3C5B6F;
+}
+
+body{
+  background-color: #FFFAFA;
+}
+
+@media screen and (max-width: 700px) {
+  .container {
+    padding: 0px 15px !important;
+  }
+  
+  .title {
+    font-size: 50px !important;
+  }
+}

@@ -1,7 +1,12 @@
 {
-  "/(auth)/login/page": "app/(auth)/login/page.js",
-  "/(auth)/register/page": "app/(auth)/register/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/page": "app/page.js",
+  "/(pages)/about/page": "app/(pages)/about/page.js",
   "/(pages)/book/list/page": "app/(pages)/book/list/page.js",
+  "/(pages)/book/view/[id]/[tab]/page": "app/(pages)/book/view/[id]/[tab]/page.js",
   "/(pages)/book/view/[id]/page": "app/(pages)/book/view/[id]/page.js",
-  "/(pages)/book/view/[id]/[tab]/page": "app/(pages)/book/view/[id]/[tab]/page.js"
+  "/(pages)/book/view/page": "app/(pages)/book/view/page.js",
+  "/(pages)/home/page": "app/(pages)/home/page.js",
+  "/(auth)/register/page": "app/(auth)/register/page.js",
+  "/(auth)/login/page": "app/(auth)/login/page.js"
 }

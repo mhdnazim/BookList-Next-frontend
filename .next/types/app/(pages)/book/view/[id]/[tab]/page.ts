@@ -1,4 +1,4 @@
-// File: C:\Users\HP\Desktop\Git Hub\BookList-next.js\client\src\app\(pages)\book\view\[id]\[tab]\page.tsx
+// File: C:\Users\Limenzy\Desktop\New folder\BookList-Next-frontend\src\app\(pages)\book\view\[id]\[tab]\page.tsx
 import * as entry from '../../../../../../../../src/app/(pages)/book/view/[id]/[tab]/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

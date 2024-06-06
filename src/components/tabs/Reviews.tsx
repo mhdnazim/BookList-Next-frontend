@@ -98,7 +98,7 @@ const Reviews = ( { bookDetails, newReview, setNewReview }: Props ) => {
         if (bookDetails._id) {
           const storedToken = localStorage.getItem("access_token")
           const viewReview = async () => {
-          await axios.post(`http://localhost:8100/review/view`,  {_id: bookDetails._id}  , {
+          await axios.post(`https://booklist-node-backend.onrender.com/review/view`,  {_id: bookDetails._id}  , {
           headers: {Authorization: `Bearer ${storedToken}` } }).then(res=>{
               setReviews(res.data.data)
               }).catch(error => {

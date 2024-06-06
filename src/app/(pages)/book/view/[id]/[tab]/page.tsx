@@ -45,7 +45,7 @@ const TabPage = ({params}: {params: {id: string, tab: string}}) => {
   useEffect(() => {
         const storedToken = localStorage.getItem("access_token")
         const viewBook = async () => {
-        await axios.post(`http://localhost:8100/book/view`, { _id: params.id } , {
+        await axios.post(`https://booklist-node-backend.onrender.com/book/view`, { _id: params.id } , {
         headers: {Authorization: `Bearer ${storedToken}` } }).then(res=>{
             setViewedBook(res.data.data)
             }).catch(error => {
